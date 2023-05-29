@@ -17,7 +17,9 @@ Cyclomate complexity = E - N + 2 = 37 - 28 + 2 = 11
 
 Ќе ја воведеме следнава синтакса:
 | X: | user==null |
+|:---|-------|
 | Y: | user.getPassword()==null |
+|:---|-------|
 | Z: | user.getEmail()==null |
 |:---|-------|
 
