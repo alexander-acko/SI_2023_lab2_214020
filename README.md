@@ -19,9 +19,7 @@ Cyclomate complexity = E - N + 2 = 37 - 28 + 2 = 11
 | X: | user==null |
 |:---|-------|
 | Y: | user.getPassword()==null |
-|:---|-------|
 | Z: | user.getEmail()==null |
-|:---|-------|
 
 | XYZ	 | possible test case |	Branch |
 |:-----|---------|--------|
