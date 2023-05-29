@@ -15,6 +15,16 @@ Cyclomate complexity = E - N + 2 = 37 - 28 + 2 = 11
 
 ### Тест случаи според критериумот Multiple condition
 
-....
+Ќе ја воведеме следнава синтакса:
+X: user==null 
+Y: user.getPassword()==null
+Z: user.getEmail()==null
+
+| XYZ	 | possible test case |	Branch |
+|:-----|---------|--------|
+| TXX	| u = null, p = password, e = name@email.com	| 1-2-24 |
+| FTX |	u = user, p = null, e = name@email.com	| 1-2-24 |
+| FFT |	u = user, p = password, e = null	| 1-2-24 |
+| FFF |	u = user, p = password, e = name@email.com	| 1-3-5-… |
 
 ### Објаснување на напишаните unit tests
