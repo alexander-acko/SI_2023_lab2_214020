@@ -22,8 +22,8 @@ Z: user.getEmail()==null
 
 | XYZ	 | possible test case |	Branch |
 |:-----|---------|--------|
-| TXX	| u = null, p = password, e = name@email.com	| 1-2-24 |
-| FTX |	u = user, p = null, e = name@email.com	| 1-2-24 |
+| Txx	| u = null, p = password, e = name@email.com	| 1-2-24 |
+| FTx |	u = user, p = null, e = name@email.com	| 1-2-24 |
 | FFT |	u = user, p = password, e = null	| 1-2-24 |
 | FFF |	u = user, p = password, e = name@email.com	| 1-3-5-… |
 
