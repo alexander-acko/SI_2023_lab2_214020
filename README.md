@@ -21,7 +21,7 @@ Cyclomate complexity = E - N + 2 = 37 - 28 + 2 = 11
 | Y: | user.getPassword()==null |
 | Z: | user.getEmail()==null |
 
-| XYZ	 | possible test case |	Branch |
+| XYZ	 | possible test case |	Nodes |
 |:-----|---------|--------|
 | Txx	| u = null, p = password, e = name@email.com	| 1-2-24 |
 | FTx |	u = user, p = null, e = name@email.com	| 1-2-24 |
