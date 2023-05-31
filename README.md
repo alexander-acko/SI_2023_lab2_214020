@@ -11,7 +11,17 @@ Cyclomate complexity = E - N + 2 = 37 - 28 + 2 = 11
 
 ### Тест случаи според критериумот Every branch
 
-....
+| Test case 1: | user == null |
+|:---|--------|
+| Test case 2: | password == null |
+| Test case 3: | email == null |
+| Test case 4: | во email не се содржи '@' или '.' |
+| Test case 5: | во password нема некој од специјалнните карактери |
+| Test case 6: | должината на password е помала од 8 |
+| Test case 7: | во password се содржи username |
+| Test case 8: | во password има празно место " " |
+| Test case 9: | го има email во allUsers |
+| Test case 10: | го има username во allUsers |
 
 ### Тест случаи според критериумот Multiple condition
 
